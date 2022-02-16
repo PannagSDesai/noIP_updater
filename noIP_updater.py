@@ -27,4 +27,4 @@ while (1):
             fh.setLevel(logging.WARN)
             logger.addHandler(fh)
             
-    time.sleep(60)
+    time.sleep(update_frequency)
